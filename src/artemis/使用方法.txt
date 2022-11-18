@@ -1,0 +1,5 @@
+解包命令。root.pfs是要解压的文件，root是解包后的路径
+artemis_pf8.py -u root.pfs -o root
+
+封包命令。root是要封包的文件夹，root.pfs是封包后的文件
+artemis_pf8.py -p root -o root.pfs
